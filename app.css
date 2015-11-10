@@ -1,3 +1,76 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+.nav, .pagination, .carousel, .panel-title a { 
+	cursor: pointer; 
+}
+
 body {
   padding:10px;
+  font-family: Lato, Helvetica Neue, sans-serif;
+  font-weight: 300;
+  background-color: #E9EAEE;
+  font-size: 2em;
+}
+
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	color: maroon;
+}
+
+#short {
+	font-size: 0.75em;
+}
+
+/*table.table {
+	font-size: 0.75em;
+	background-color: white;
+	width: 75%;
+}
+
+tr {
+	font-size: 2em;
+	text-align: center;
+}*/
+
+div.block {
+	display:inline-block;
+}
+
+img.img-responsive {
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+}
+
+div img:hover {
+	opacity: 0.8;
+	-webkit-transition: opacity 500ms;
+  	-moz-transition: opacity 500ms;
+  	-o-transition: opacity 500ms;
+  	transition: opacity 500ms;
+}
+
+p.text-content {
+	text-align: center;
+	font-size: 0.75em;
+}
+
+@media screen and (min-width: 768px) {
+	img.img-responsive {
+		width: 200px;
+		height: 200px;
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	img.img-responsive {
+		width: 250px;
+		height: 250px;
+		padding: 15px;
+	}
 }
